@@ -1,0 +1,54 @@
+30,30
+##############################
+#                        %&&&#
+#                       %  $&#
+#                        %&&&#
+##########G###################
+####       ########  !##  %###
+## A         Y      !LR    $##
+####       ######    !##  %###
+##########%###################
+######        ################
+####           ###############
+##      ~~~~~     ##########B#
+#  #  ~~~~~~~~     G   !#### #
+#     ~~~ !L~~~~   ######### #
+#    ~~~~~~~~~~    #########R#
+#     ~~~~~       #########  #
+#                 #####F  R  #
+# ?     #      H###########  #
+#            #############   #
+###################          #
+###################  #######Y#
+###             &&&&&##!     #
+##@  #########   &&&&&&&     #
+###             &&&&####     #
+## ####################      #
+#  ############ ###  ##     H#
+#  ########           !###%###
+#    !##### # ! # ######## ###
+#           ### #           A#
+##############################
+1,28,START
+3,1,straight,RIGHT,ENEMY
+2,2,straight,RIGHT,ENEMY
+1,3,straight,RIGHT,ENEMY
+6,1,straight,RIGHT,ENEMY
+7,2,straight,RIGHT,ENEMY
+8,3,straight,RIGHT,ENEMY
+11,1,straight,RIGHT,ENEMY
+12,2,straight,RIGHT,ENEMY
+13,3,straight,RIGHT,ENEMY
+4,7,straight,UP,ENEMY
+6,5,straight,DOWN,ENEMY
+8,7,straight,DOWN,ENEMY
+1,25,straight,DOWN,ENEMY
+2,24,straight,DOWN,ENEMY
+20,26,straight,LEFT,ENEMY
+15,25,straight,DOWN,ENEMY
+23,25,smart,ENEMY
+11,21,wall,RIGHT,ENEMY
+11,23,wall,LEFT,ENEMY
+10,10,wall,RIGHT,ENEMY
+10,9,dumb,ENEMY
+3,TOKEN

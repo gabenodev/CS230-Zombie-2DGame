@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="profileManagerController" prefHeight="792" prefWidth="992" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sceneController.ProfileManagerController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <ImageView fitHeight="794.0" fitWidth="992.0">
+               <image>
+                  <Image url="@../resources/ProfileManagerBack.png" />
+               </image>
+            </ImageView>
+            <Button id="selectButton" fx:id="selectButton" layoutX="531.0" layoutY="565.0" mnemonicParsing="false" onAction="#handleSelectButtonAction" prefHeight="61.0" prefWidth="142.0" text="SELECT">
+               <font>
+                  <Font name="Ink Free" size="26.0" />
+               </font></Button>
+            <Button id="deleteButton" fx:id="deleteButton" layoutX="705.0" layoutY="565.0" mnemonicParsing="false" onAction="#handleDeleteButtonAction" prefHeight="61.0" prefWidth="142.0" text="DELETE">
+               <font>
+                  <Font name="Ink Free" size="26.0" />
+               </font></Button>
+            <ListView id="profileList" fx:id="profileList" layoutX="531.0" layoutY="169.0" prefHeight="379.0" prefWidth="316.0" />
+            <Button id="newProfileButton" fx:id="newProfileButton" layoutX="573.0" layoutY="640.0" mnemonicParsing="false" onAction="#handleNewProfileButton" prefHeight="61.0" prefWidth="233.0" text="NEW SURVIVOR">
+               <font>
+                  <Font name="Ink Free" size="26.0" />
+               </font></Button>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
